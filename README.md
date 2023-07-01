@@ -1,5 +1,20 @@
 <img src="https://github.com/erpnet/ErpNet.FP/raw/master/ErpNet.FP.Server/ErpNet.FP.thumb.png" align="right"/>
 
+## This is a fork of https://github.com/erpnet/ErpNet.FP
+This difference between this and the original is the support of Datecs DP-25 MX.
+
+# ErpNet.FP
+
+ErpNet.FP is a light-weight multi-platform Http server facilitating printing to fiscal printers through simple JSON Api. The library provides methods to detect, get status, print receipts, reports and other documents to fiscal printers.
+
+The ErpNet.FP http server provides a REST API with JSON input/output, which prints documents transactionally and returns result status.
+
+The http server receives input through the REST API and uses different transports to communicate with the fiscal printers. The transports include:
+* COM serial connection
+* Bluetooth connection through mapping to COM port
+* TCP/IP
+* etc.
+
 # ErpNet.FP
 
 ErpNet.FP is a light-weight multi-platform Http server facilitating printing to fiscal printers through simple JSON Api. The library provides methods to detect, get status, print receipts, reports and other documents to fiscal printers.
